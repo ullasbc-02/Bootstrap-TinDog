@@ -1,0 +1,160 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+body {
+  font-family: 'Montserrat Black', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 75px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: 'Montserrat Black', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+p {
+  color: grey;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Button */
+.download-button {
+  margin-right: 15px;
+}
+
+.rotated {
+  width: 280px;
+  margin-left: 80px;
+  transform: rotate(25deg);
+  position: relative;
+  top: 30px;
+}
+
+#features {
+  margin: 7% 15%;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+  margin: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+  text-align: center;
+}
+.ctad{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  width:100%;
+  height:600px;
+  padding: 7% 15%;
+}
+.lastline{
+  font-size: 3.5rem;
+}
+#footer{
+  margin-top: 7%;
+  text-align: center;
+}
+.icons{
+  line-height: 2.5rem;
+}
+.brand{
+  margin:1%;
+  padding: 2%;
+}
+@media(max-width:1028px)
+{
+  #title{
+    text-align: center;
+  }
+  .rotated{
+    position:static;
+    transform:rotate(0deg);
+  }
+}
